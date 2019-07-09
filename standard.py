@@ -13,6 +13,17 @@ def run(pro):
 global ver
 def getResult(whatgetresult):
     return whatgetresult
+def catch(fuc,err_name,catched_do,show=None):
+    try:
+        fuc
+    except Exception as err:
+        if show == True:
+            vout(str(fuc)+":"+str(err))
+    except err_name:
+        if show == True:
+            vout(str(fuc)
+                
+            
     
 ver="inside"
 def vin(word):
