@@ -1,5 +1,5 @@
 from standard import *
-vout("------v py compiler ------")
+vout("------vy compiler ------")
 cp=vin("> ")
 with open(cp+'.vy','r') as f:
     temp=f.read()
